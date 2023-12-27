@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MyCarLocationPage">
+
+    <ImageView
+        android:id="@+id/Pic_MyCarLocationPage"
+        android:layout_width="299dp"
+        android:layout_height="176dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="600dp"
+        android:contentDescription="@string/popaye"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_location_on_24"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/CarPic_MyCarLocationPage"
+        android:layout_width="343dp"
+        android:layout_height="252dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="185dp"
+        android:layout_marginBottom="478dp"
+        android:contentDescription="@string/popaye"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_directions_car_24"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/CopyAddress_MyCarLocationPage"
+        android:layout_width="40dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="294dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="429dp"
+        android:contentDescription="@string/popaye"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_content_copy_24"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/CopyLocation_MyCarLocationPage"
+        android:layout_width="40dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="474dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="249dp"
+        android:contentDescription="@string/popaye"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_content_copy_24_blue"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Text_MyCarLocationPage"
+        android:layout_width="180dp"
+        android:layout_height="207dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="252dp"
+        android:text="@string/current_car_location_MyCarLocationPage"
+        android:textColor="@color/teal_700"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.406"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/UpdateCarLocation_MyCarLocationPage"
+        android:layout_width="342dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="541dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="90dp"
+        android:text="@string/update_car_location_MyCarLocationPage"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/DirectMeToCarInMaps_MyCarLocationPage"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginTop="404dp"
+        android:layout_marginBottom="299dp"
+        android:text="@string/direct_me_to_my_car_in_maps_MyCarLocationPage"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/DeleteCarLocation_MyCarLocationPage"
+        android:layout_width="202dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="641dp"
+        android:layout_marginEnd="179dp"
+        android:text="@string/delete_car_location_MyCarLocationPage"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/Location_MyCarLocationPage"
+        android:layout_width="300dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="478dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="152dp"
+        android:text="@string/location_MyCarLocationPage"
+        android:textColor="@color/teal_700"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/LocationDetails_MyCarLocationPage"
+        android:layout_width="300dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="478dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="152dp"
+        android:text="@string/location_MyCarLocationPage"
+        android:textColor="@color/teal_700"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Address_MyCarLocationPage"
+        android:layout_width="300dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="322dp"
+        android:text="@string/address_PopayePage"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/AddressDetails_MyCarLocationPage"
+        android:layout_width="300dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="322dp"
+        android:text="@string/address_PopayePage"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/Back_MyCarLocationPage"
+        android:layout_width="80dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="322dp"
+        android:layout_marginTop="648dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/big_blue_purple_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

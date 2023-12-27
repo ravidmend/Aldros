@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "639186756607",
+    "firebase_url": "https://aldros-15320-default-rtdb.firebaseio.com",
+    "project_id": "aldros-15320",
+    "storage_bucket": "aldros-15320.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639186756607:android:c449f28d5df410d47fbdca",
+        "android_client_info": {
+          "package_name": "com.example.newfuckingaldros"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639186756607-i5ch4ifga633cfdng4dbo2ql9lvosv18.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDurbEpbSSyzThu5sfhR8lzBwm-DAxx4VQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639186756607-i5ch4ifga633cfdng4dbo2ql9lvosv18.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639186756607:android:d39feb9eedadc8667fbdca",
+        "android_client_info": {
+          "package_name": "com.example.newfuckingaldros"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639186756607-i5ch4ifga633cfdng4dbo2ql9lvosv18.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDurbEpbSSyzThu5sfhR8lzBwm-DAxx4VQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639186756607-i5ch4ifga633cfdng4dbo2ql9lvosv18.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".AldrosEnterPage">
+
+    <TextView
+        android:id="@+id/AldrosEnterPage"
+        android:layout_width="199dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="622dp"
+        android:text="@string/Aldros"
+        android:textColor="@color/purple_500"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/loginB_AldrosEnterPage"
+        android:layout_width="266dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="487dp"
+        android:text="@string/login"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/CreateNewAccountB_AldrosEnterPage"
+        android:layout_width="266dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="307dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="380dp"
+        android:text="@string/create_new_account"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/evil_AldrosEnterPage"
+        android:layout_width="271dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="662dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="37dp"
+        android:text="@string/ravid_nadav_evil_incorporated"
+        android:textColor="@color/purple_500"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/pic_AldrosEnterPage"
+        android:layout_width="272dp"
+        android:layout_height="243dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="402dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="114dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/popaye_enter_page" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

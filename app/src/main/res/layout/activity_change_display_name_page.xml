@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ChangeDisplayNamePage">
+
+    <TextView
+        android:id="@+id/ChangeDisplayNamePage"
+        android:layout_width="335dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="600dp"
+        android:text="@string/change_displayname_ChangeDisplayNamePage"
+        android:textColor="@color/purple_500"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Note_ChangeDisplayNamePage"
+        android:layout_width="375dp"
+        android:layout_height="154dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="157dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="440dp"
+        android:text="@string/note_your_displayname_will_now_be_the_one_you_will_enter_down_below_ChangeDisplayNamePage"
+        android:textColor="@color/red"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.555">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/NewDisplayName_ChangeDisplayNamePage"
+            android:layout_width="322dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginEnd="98dp"
+            android:layout_marginBottom="385dp"
+            android:ems="10"
+            android:hint="@string/new_displayname_ChangeDisplayNamePage"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/purple_500"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.142"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.555"
+            tools:ignore="LabelFor" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.555">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/VerifyDisplayName_ChangeDisplayNamePage"
+            android:layout_width="322dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginEnd="98dp"
+            android:layout_marginBottom="145dp"
+            android:ems="10"
+            android:hint="@string/verify_displayname_ChangeDisplayNamePage"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/purple_500"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.142"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.555"
+            tools:ignore="LabelFor" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/Confirm_ChangeDisplayNamePage"
+        android:layout_width="300dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="521dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="127dp"
+        android:text="@string/confirm_ChangeDisplayNamePage"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAllCaps="false"/>
+
+
+    <ImageView
+        android:id="@+id/Back_ChangeDisplayNamePage"
+        android:layout_width="80dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="322dp"
+        android:layout_marginTop="648dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/big_blue_purple_button" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

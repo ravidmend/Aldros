@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ChangeAlarmPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ChangeAlarmPage"
+            android:layout_width="335dp"
+            android:layout_height="124dp"
+            android:text="@string/change_alarm2_ChangeAlarmPage"
+            android:textColor="@color/purple_500"
+            android:textSize="40sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/warning_ChangeAlarmPage"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="@string/warning_ChangeAlarmPage"
+            android:textAllCaps="false"/>
+
+        <ImageView
+            android:id="@+id/warning_play_ChangeAlarmPage"
+            android:layout_width="51dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="-43dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_play_arrow_24" />
+
+        <ImageView
+            android:id="@+id/warning_pause_ChangeAlarmPage"
+            android:layout_width="51dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="-45dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_pause_24" />
+
+        <Button
+            android:id="@+id/MurderTrain_ChangeAlarmPage"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="@string/murder_train_ChangeAlarmPage"
+            android:textAllCaps="false"/>
+
+        <ImageView
+            android:id="@+id/MurderTrain_play_ChangeAlarmPage"
+            android:layout_width="51dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="-43dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_play_arrow_24" />
+
+        <ImageView
+            android:id="@+id/MurderTrain_pause_ChangeAlarmPage"
+            android:layout_width="51dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="-45dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_pause_24" />
+
+
+
+
+
+        <Button
+            android:id="@+id/TheJigIsUp_ChangeAlarmPage"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="@string/theJigIsUp_ChangeAlarmPage"
+            android:textAllCaps="false"/>
+
+        <ImageView
+            android:id="@+id/TheJigIsUp_play_ChangeAlarmPage"
+            android:layout_width="51dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="-43dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_play_arrow_24" />
+
+        <ImageView
+            android:id="@+id/TheJigIsUp_pause_ChangeAlarmPage"
+            android:layout_width="51dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="-45dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_pause_24" />
+
+        <Button
+            android:id="@+id/OD_ChangeAlarmPage"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="@string/o_d_ChangeAlarmPage"
+            android:textAllCaps="false"/>
+
+        <ImageView
+            android:id="@+id/OD_play_ChangeAlarmPage"
+            android:layout_width="51dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="-43dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_play_arrow_24" />
+
+        <ImageView
+            android:id="@+id/OD_pause_ChangeAlarmPage"
+            android:layout_width="51dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="-45dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_pause_24" />
+
+        <Button
+            android:id="@+id/MoonlightSonata_ChangeAlarmPage"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="@string/moonlight_sonata_ChangeAlarmPage"
+            android:textAllCaps="false"/>
+
+        <ImageView
+            android:id="@+id/MoonlightSonata_play_ChangeAlarmPage"
+            android:layout_width="51dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="-43dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_play_arrow_24" />
+
+        <ImageView
+            android:id="@+id/MoonlightSonata_pause_ChangeAlarmPage"
+            android:layout_width="51dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="-45dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_pause_24" />
+
+        <Button
+            android:id="@+id/IcanDoWhatEverIWant_Finale_ChangeAlarmPage"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="@string/i_can_do_what_ever_i_want_ChangeAlarmPage"
+            android:textAllCaps="false"/>
+
+        <ImageView
+            android:id="@+id/IcanDoWhatEverIWant_Finale_play_ChangeAlarmPage"
+            android:layout_width="51dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="-43dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_play_arrow_24"/>
+
+        <ImageView
+            android:id="@+id/IcanDoWhatEverIWant_Finale_pause_ChangeAlarmPage"
+            android:layout_width="51dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="-45dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_pause_24" />
+
+        <Button
+            android:id="@+id/HipToBeScared_ChangeAlarmPage"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="@string/hip_to_be_scared_ChangeAlarmPage"
+            android:textAllCaps="false"/>
+
+        <ImageView
+            android:id="@+id/HipToBeScared_play_ChangeAlarmPage"
+            android:layout_width="51dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="-43dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_play_arrow_24" />
+
+        <ImageView
+            android:id="@+id/HipToBeScared_pause_ChangeAlarmPage"
+            android:layout_width="51dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="-45dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_pause_24" />
+
+        <Button
+            android:id="@+id/HailToTheKing_ChangeAlarmPage"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="@string/hail_to_the_king_ChangeAlarmPage"
+            android:textAllCaps="false"/>
+
+        <ImageView
+            android:id="@+id/HailToTheKing_play_ChangeAlarmPage"
+            android:layout_width="51dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="-43dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_play_arrow_24" />
+
+        <ImageView
+            android:id="@+id/HailToTheKing_pause_ChangeAlarmPage"
+            android:layout_width="51dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="-45dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_pause_24" />
+
+        <Button
+            android:id="@+id/FuneralDerangement_ChangeAlarmPage"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="@string/funeral_derangement_ChangeAlarmPage"
+            android:textAllCaps="false"/>
+
+        <ImageView
+            android:id="@+id/FuneralDerangement_play_ChangeAlarmPage"
+            android:layout_width="51dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="-43dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_play_arrow_24" />
+
+        <ImageView
+            android:id="@+id/FuneralDerangement_pause_ChangeAlarmPage"
+            android:layout_width="51dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="-45dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_pause_24" />
+
+        <Button
+            android:id="@+id/Eyeless_ChangeAlarmPage"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="@string/eyeless_ChangeAlarmPage"
+            android:textAllCaps="false"/>
+
+        <ImageView
+            android:id="@+id/Eyeless_play_ChangeAlarmPage"
+            android:layout_width="51dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="-43dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_play_arrow_24" />
+
+        <ImageView
+            android:id="@+id/Eyeless_pause_ChangeAlarmPage"
+            android:layout_width="51dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="-45dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_pause_24" />
+
+        <Button
+            android:id="@+id/CriticalAcclaimStart_ChangeAlarmPage"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="@string/critical_acclaim_start_ChangeAlarmPage"
+            android:textAllCaps="false"/>
+
+        <ImageView
+            android:id="@+id/CriticalAcclaimStart_play_ChangeAlarmPage"
+            android:layout_width="51dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="-43dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_play_arrow_24" />
+
+        <ImageView
+            android:id="@+id/CriticalAcclaimStart_pause_ChangeAlarmPage"
+            android:layout_width="51dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="-45dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_pause_24" />
+
+        <Button
+            android:id="@+id/CriticalAcclaimSolo_ChangeAlarmPage"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="@string/critical_acclaim_solo_ChangeAlarmPage"
+            android:textAllCaps="false"/>
+
+        <ImageView
+            android:id="@+id/CriticalAcclaimSolo_play_ChangeAlarmPage"
+            android:layout_width="51dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="-43dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_play_arrow_24" />
+
+        <ImageView
+            android:id="@+id/CriticalAcclaimSolo_pause_ChangeAlarmPage"
+            android:layout_width="51dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="-45dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_pause_24" />
+
+        <Button
+            android:id="@+id/AmericanPsychoLastScene_ChangeAlarmPage"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="@string/american_psycho_last_scene_ChangeAlarmPage"
+            android:textAllCaps="false"/>
+
+        <ImageView
+            android:id="@+id/AmericanPsychoLastScene_play_ChangeAlarmPage"
+            android:layout_width="51dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="-43dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_play_arrow_24" />
+
+        <ImageView
+            android:id="@+id/AmericanPsychoLastScene_pause_ChangeAlarmPage"
+            android:layout_width="51dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="-45dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_pause_24" />
+
+
+
+        <ImageView
+            android:id="@+id/Back_ChangeAlarmPage"
+            android:layout_width="80dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="322dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/big_blue_purple_button" />
+
+
+    </LinearLayout>
+</ScrollView>
