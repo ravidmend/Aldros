@@ -18,6 +18,9 @@ Welcome to Aldros – the intelligent safety app that uses advanced technologies
 
 - **Find Your Car:** With the press of a button, Aldros provides directions back to your saved parking location using Google Maps.
 
+- **Custom Alert Sounds:** Personalize your alert experience by choosing from a variety of alert sounds available in the app.
+
+
 ## Getting Started
 
 To get started with Aldros, follow these simple steps:
@@ -45,8 +48,7 @@ In the event of a potential accident, Aldros will alert you with the following:
 - **Save Parking Location:** Easily save the location where you parked your car with a button press.
 
 - **Find Your Car:** Get directions back to your saved parking location using Google Maps.
-
-
+  
 ## Support
 
 For any questions, concerns, or technical issues, please contact our support team at support@aldros.com.
