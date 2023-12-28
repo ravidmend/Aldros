@@ -15,8 +15,8 @@ Welcome to Aldros – the intelligent safety app that uses advanced technologies
 
 - **Activity Recognition:** Through Google's Activity Recognition API, Aldros identifies and categorizes your current activity, such as walking, running, cycling, or driving.
   <p align="center">
-  <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/walkin.jpg" alt="walking activity" width="225" height="425">
-  <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/still.jpg" alt="still activity" width="225" height="425">
+  <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/walkin.jpg" alt="walking activity" width="300" height="425">
+  <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/still.jpg" alt="still activity" width="300" height="425">
 </p>
 
 - **Real-time Data Sync:** Your data is securely sent to a Firebase Realtime Database, enabling seamless communication with the Aldros server.
