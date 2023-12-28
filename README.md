@@ -6,7 +6,7 @@
 
 Welcome to Aldros – the intelligent safety app that uses advanced technologies to enhance your road safety. Aldros leverages your device's location, speed, acceleration, and direction to provide real-time insights into your driving behavior. By utilizing Google's Activity Recognition API and a Firebase Realtime Database, Aldros connects you with a network of users, allowing for collective safety improvements.
 <p align="center">
-  <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/front%20page.jpg" alt="Aldros front" width="450" height="850">
+  <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/front%20page.jpg" alt="Aldros front" width="360" height="725">
 </p>
 
 ## Features
@@ -31,12 +31,12 @@ Welcome to Aldros – the intelligent safety app that uses advanced technologies
 
 - **Custom Alert Sounds:** Personalize your alert experience by choosing from a variety of alert sounds available in the app.
   <p align="center">
-  <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/choose%20alarm.jpg" alt="alarmsound" width="450" height="850">
+  <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/choose%20alarm.jpg" alt="alarmsound" width="360" height="725">
 </p>
 
 - **Email Verification:** When creating a new user, Aldros requires email verification. A verification link will be sent to your email address to complete the registration process.
   <p align="center">
-  <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/verify.jpg" alt="verify" width="450" height="850">
+  <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/verify.jpg" alt="verify" width="360" height="725">
 </p>
 
 ## Getting Started
@@ -47,16 +47,16 @@ To get started with Aldros, follow these simple steps:
 
 2. **Create an Account:** Sign up for an Aldros account to start using the app. You'll be prompted to enter essential information to enhance your safety experience.
   <p align="center">
-  <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/createNewAccount.jpg" alt="createNewAccount" width="450" height="850">
-  <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/login.jpg" alt="login" width="450" height="850">
+  <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/createNewAccount.jpg" alt="createNewAccount" width="360" height="725">
+  <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/login.jpg" alt="login" width="360" height="725">
 </p>
 
 4. **Grant Permissions:** Make sure to grant the necessary permissions for location, acceleration, and other relevant sensors for Aldros to function optimally.
   <p align="center">
-  <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/allow%20permissions.jpg" alt="allow per" width="450" height="850">
-    <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/activity%20per.jpg" alt="activity per" width="450" height="850">
-    <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/location%20per.jpg" alt="location%20per" width="450" height="850">
-    <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/sensors%20per.jpg" alt="sensors%20per" width="450" height="850">
+  <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/allow%20permissions.jpg" alt="allow per" width="180" height="362.5">
+    <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/activity%20per.jpg" alt="activity per" width="180" height="362.5">
+    <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/location%20per.jpg" alt="location%20per" width="180" height="362.5">
+    <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/sensors%20per.jpg" alt="sensors%20per" width="180" height="362.5">
 </p>
 
 6. **Stay Informed:** Aldros will run, intelligently monitoring your driving and providing real-time insights.
@@ -71,8 +71,8 @@ In the event of a potential accident, Aldros will alert you with the following:
 
 - **Alarm:** An audible alarm will start to notify you of the potential danger.
   <p align="center">
-  <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/walker%20on%20road.jpg" alt="Alert" width="450" height="850">
-  <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/carcoming.jpg" alt="Alert" width="450" height="850">
+  <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/walker%20on%20road.jpg" alt="Alert" width="360" height="725">
+  <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/carcoming.jpg" alt="Alert" width="360" height="725">
 </p>
 
 ## Parking Features
@@ -81,7 +81,7 @@ In the event of a potential accident, Aldros will alert you with the following:
 
 - **Find Your Car:** Get directions back to your saved parking location using Google Maps.
   <p align="center">
-  <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/carLocation.jpg" alt="carLocation" width="450" height="850">
+  <img src="https://github.com/ravidmend/Aldros/blob/master/.idea/pictures%20for%20ReadMe/carLocation.jpg" alt="carLocation" width="360" height="725">
 </p>
 
   
